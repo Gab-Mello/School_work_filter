@@ -43,4 +43,4 @@ amplified_audio = filtered_audio * amplification_factor
 amplified_audio = np.clip(amplified_audio, -1, 1)
 
 # Save the amplified audio
-write("final_audio.wav", sample_rate, np.int16(amplified_audio * 32767))
+write("filtered_audio.wav", sample_rate, np.int16(amplified_audio * 32767))

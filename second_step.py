@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Upload the audio file
-sample_rate, audio_data = read("vazado_1.wav")
+sample_rate, audio_data = read("vazado_3.wav")
 
 # Normalize the original audio
 audio_data = audio_data / np.max(np.abs(audio_data))
